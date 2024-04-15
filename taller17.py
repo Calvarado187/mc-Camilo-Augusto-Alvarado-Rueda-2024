@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 x = np.array([1, 2, 3, 4, 5, 6, 7, 8])
-y = np.array([9, 7, 8, 5, 6, 4.5, 4, 2, 5])
+y = np.array([9, 7, 8, 5, 6, 4.5, 4, 2.5])
 
 
 A = np.vstack([x, np.ones(len(x))]).T
